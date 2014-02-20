@@ -1,21 +1,13 @@
 {
-  "name": "select-component",
+  "name": "component-select",
+  "description": "Array filter utility",
   "version": "0.0.1",
-  "description": "Select utility",
+  "keywords": [
+    "array",
+    "utility",
+    "filter"
+  ],
   "dependencies": {
-    "to-function": "*"
-  },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
-  },
-  "component": {
-    "scripts": {
-      "select/index.js": "index.js"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/select.git"
+    "component-to-function": "git://github.com/npmcomponent/component-to-function.git"
   }
 }
